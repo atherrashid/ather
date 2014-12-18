@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>city</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-image:url(home/workspace/ather/trailx/templates/background.jpg)">
+<div class="row">
+<div class="col-sm-3" style="background-color:yellow;margin-top:15%;margin-left:75%;border:5">
+<h1><b>{{trials}}</b></h1>
+</div>
+<div class="col-sm-6" style="background-color:lavender;margin-left:20%">
+<div style="margin-left:20%;margin-left:5%;"><p>Select City:<b</p></div>
+<form method = 'get'>
+
+<select name="city">
+    <option name="Milwaukee">Milwaukee</option>
+    <option name="Seattle">Seattle</option>
+    <option name="ABINGDON">ABINGDON</option>
+    <option name="Charlottesville">Charlottesville</option>
+    <option name="Dallas">Dallas</option>
+    <option name="Salt Lake City">Salt Lake City</option>
+    <option name="Knoxville">Knoxville</option>
+    <option name="Charleston">Charleston</option>
+    <option name="Oklahoma City">Oklahoma City</option>
+    <option name="Philadelphia">Philadelphia</option>
+    <option name="Buffalo">Buffalo</option>
+    <option name="New York">New York</option>
+    <option name="Jefferson City">Jefferson City</option>
+    <option name="Winston-Salem">Winston-Salem</option>
+    <option name="Boston">Boston</option>
+    <option name="Detroit">Detroit</option>
+    <option name="Louisville">Louisville</option>
+    <option name="Kansas City">Kansas City</option>
+    <option name="Iowa City">Iowa City</option>
+    <option name="Chicago">Chicago</option>
+    <option name="Washington">Washington</option>
+    <option name="Farmington">Farmington</option>
+    <option name="Bakersfield">Bakersfield</option>
+    <option name="San Francisco">San Francisco</option>
+    <option name="Toronto">Toronto</option>
+    <option name="Atlanta">Atlanta</option>
+</select>
+
+
+
+<input type="hidden" name="step" value={{step}}>
+<input type="hidden" name="name" value={{disease}}>
+<input type="submit" class="btn btn-default" name="submit">
+
+</form>
+</div>
+</div>
+</body>
+</html>

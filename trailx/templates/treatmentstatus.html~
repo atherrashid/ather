@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>treatment</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form method = 'get'>
+Treatment Status:<br>
+<select name = "treatment status">
+    <option name="first_relapse">first_relapse</option>
+    <option name="multiple_relapse">multiple_relapse</option>
+    <option name="Refractory">Refractory</option>
+    <option name="Untreated">Untreated</option>
+</select>
+<input type="hidden" name="step" value={{step}}>
+<input type="hidden" name="name" value={{disease}}>
+<input type="submit" name="submit">
+{{trials}}
+</form>
+</body>
+</html>

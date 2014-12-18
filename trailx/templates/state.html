@@ -1,0 +1,51 @@
+<html>
+<head>
+   <title>State</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-image:url(http://medialoot.com/images/size/1140x430_abstract-mosaic-backgrounds-post-image.jpg)">
+<div class="row">
+<div class="col-sm-3" style="background-color:yellow;margin-top:15%;margin-left:75%;border:5">
+<h1><b>{{trials}}</b></h1>
+</div>
+<div class="col-sm-6" style="background-color:lavender;margin-left:20%">
+<div style="margin-left:20%;margin-left:5%;"></div>
+ <body style="background-color:#303030">
+<form method = 'get'>
+   Select State:<br/>
+<select name ="state">
+<option name="WA">WA</option>
+<option name="WI">WI</option>
+<option name="TX">TX</option>
+<option name="SC">SC</option>
+<option name="PA">PA</option>
+<option name="UT">UT</option>
+<option name="TN">TN</option>
+<option name="OK">OK</option>
+<option name="NY">NY</option>
+<option name="MI">MI</option>
+<option name="MO">MO</option>
+<option name="MA">MA</option>
+<option name="KS">KS</option>
+<option name="KY">KY</option>
+<option name="IL">IL</option>
+<option name="CA">CA</option>
+<option name="IA">IA</option>
+<option name="AR">AR</option>
+<option name="CT">CT</option>
+</select>
+
+<input type="hidden" name="step" value="{{step}}">
+<input type="hidden" name="name" value={{disease}}>
+<input type="submit" name="submit">
+
+</form>
+
+</body>
+</html>
